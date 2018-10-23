@@ -48,6 +48,10 @@ public class Controller implements Initializable {
         System.out.println("路径：" + chosenDir);
         scanFolder(chosenDir.toString());
         System.out.println("共扫描到" + fileList.size() + "张照片");
+        //压缩原图
+        for (int i = 0; i < fileList.size(); i++) {
+
+        }
         //加载照片
         ImageView imageView = null;
         Image localImage = null;
